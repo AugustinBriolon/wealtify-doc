@@ -67,7 +67,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
           {
             href: 'https://github.com/FlorianPALVADEAU/Wealtify-js',
@@ -83,7 +83,7 @@ const config = {
             title: 'Wealtify-JS Doc',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Docs',
                 to: '/docs/intro',
               },
             ],

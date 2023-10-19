@@ -1,47 +1,33 @@
 ---
 sidebar_position: 1
 ---
+# Quick Start
 
-# Tutorial Intro
+Welcome to the Wealtify-Js documentation! This page will give you an introduction to the 80% of Wealtify-Js concepts that you will use on a daily basis.
 
-Let's discover **Docusaurus in less than 5 minutes**.
 
-## Getting Started
+## You will learn 
 
-Get started by **creating a new site**.
+- How to install the `wealtify` package
+- How to use the `wealtify` package
+- How to use the methods of the `wealtify` package
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## Installation
 
-### What you'll need
+Wealtify-Js is a package for javascript that you can use for multiple purposes.
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
+First, you need to install the package using the following command:
 
 ```bash
-npm init docusaurus@latest my-website classic
+npm i wealtify
 ```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+## Usage
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+You can use the package in your code by importing it:
 
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
+```js
+import wealtify from 'wealtify';
 ```
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+To see others ways to use the package, check the [API Reference](/docs/api-reference).
