@@ -11,15 +11,10 @@ const config = {
   favicon: 'img/favicon.svg',
   url: 'https://wealtify-doc.vercel.app',
   baseUrl: '/',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
-
+  organizationName: 'AugustinBriolon',
+  projectName: 'wealtify-doc',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -47,12 +42,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
       image: 'img/wealtify-js.png',
       navbar: {
         title: 'Wealtify-JS Doc',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Wealtify-Js Logo',
           src: 'img/wealtify-js.png',
         },
         items: [
@@ -63,7 +57,7 @@ const config = {
             label: 'Docs',
           },
           {
-            // href: 'https://github.com/FlorianPALVADEAU/Wealtify-js',
+            href: '#',
             label: 'GitHub',
             position: 'right',
           },
