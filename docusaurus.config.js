@@ -9,15 +9,8 @@ const config = {
   title: 'Wealtify-JS Doc',
   tagline: 'Wealtify-JS Doc',
   favicon: 'img/favicon.svg',
-
-  // Set the production url of your site here
   url: 'https://wealtify-doc.vercel.app',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
 
@@ -70,7 +63,7 @@ const config = {
             label: 'Docs',
           },
           {
-            href: 'https://github.com/FlorianPALVADEAU/Wealtify-js',
+            // href: 'https://github.com/FlorianPALVADEAU/Wealtify-js',
             label: 'GitHub',
             position: 'right',
           },
